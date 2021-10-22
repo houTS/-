@@ -13,7 +13,11 @@
 		<Item Name="车轮 模块" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="依赖关系" Type="Dependencies"/>
+		<Item Name="依赖关系" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			</Item>
+		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
 </Project>
